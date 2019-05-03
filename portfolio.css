@@ -1,0 +1,274 @@
+/*This is the CSS file for Pacific Heights Trails */
+*{
+  box-sizing: border-box;
+}
+header{
+  background-color:#000033;
+  font-family:Georgia, serif;
+  color:#FFFFFF;
+
+}
+body{
+  background-color:#FFFFFF;
+  font-family:Verdana, Arial, sans-serif;
+  color:#666666;
+  background-color: white;
+
+}
+h1{
+  line-height:200%;
+  margin-left: auto;
+  margin-right: auto;
+  background-image:url(photos/singlewrench.jpg);
+  height:150px;
+  padding-left: 20px;
+  padding-top: 60px;
+  background-position: 0px , center;
+  background-size: 40em;
+  background-repeat: no-repeat;
+  margin-bottom: 0;
+}
+nav{
+  font-weight:bold;
+  background-color:#90C7E3;
+  float: center;
+  width: 160px;
+  padding: ;
+}
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+nav a{
+  text-decoration: none;
+}
+nav a:link{
+  color: #000033;
+}
+nav a:visited{
+  color: #344873;
+}
+nav a:hover{
+  color: #ffffff;
+}
+nav a:active{
+  color: #000000;
+}
+main{
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 170px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+h2{
+  margin-left: auto;
+  margin-right: auto;
+  font-family:Georgia, serif;
+  color:#3399CC;
+
+}
+dt{
+  font-weight:bold;
+}
+.resort{
+  color:#000033;
+  font-size: 1.2em;
+
+}
+footer{
+  margin-left:170px;
+  font-size: .7em;
+  font-style: italic;
+  text-align: center;
+  padding: 5px;
+  background-color: white;
+}
+#wrapper{
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:#90C7E3;
+  min-width: 700px;
+  max-width: 1024px;
+  box-shadow: 10px 10px 8px 21px rgba(0,0,0,0.57);
+}
+#homehero{
+  margin-left:170px;
+  background-image:url(photos/benchy.jpg);
+  height:300px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#abouthero{
+  margin-left:170px;
+  background-image:url(images/yurt.jpg);
+  height:300px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#portfoliohero{
+  margin-left:170px;
+  background-image:url(photos/twowrench.jpg);
+  height:300px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#photohero{
+  margin-left:170px;
+  background-image:url(photos/pspi.jpg);
+  height:300px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#mobile{display: none;}
+/* CSS for Tablets */
+
+@media only screen and (max-width: 1024px){
+
+    #homehero,
+    #yurthero,
+    #trailhero{
+        margin-left: 0;
+    }
+
+    body{
+        margin: 0;
+        padding: 0;
+        background-image: none;
+    }
+    #wrapper{
+        width: auto;
+
+    }
+    #wrapper{
+        max-width: 1024;
+        min-width: 0;
+        box-shadow: none;
+    }
+    h1{
+        margin: 0;
+    }
+    nav{
+        float: none;
+        width: auto;
+        padding: 0.5em;
+    }
+    nav li{
+        display: inline-block;
+    }
+    nav a{
+        padding: 1em;
+    }
+    main{
+        margin-left: 0;
+        padding: 1em;
+        font-size: 90%;
+    }
+    footer{
+        margin: 0;
+    }
+}
+/* CSS for Smartphones */
+@media only screen and (max-width: 768px){
+      #homehero,
+      #yurthero,
+      #trailhero{
+        display: none;
+    }
+
+    nav li,
+    nav a{
+        display: block;
+    }
+    nav{
+        padding: 0;
+    }
+    nav a{
+        padding: 0.2em;
+        font-size: 1.3em;
+        border-bottom: 1px #330000 solid;
+    }
+    nav ul,
+    nav li{
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        font-size: 1.5em;
+        padding-left: 0.3em;
+        height: 100%;
+  }
+  main{
+    padding: 0.1em 0.6em 0.1em 0.4em;
+  }
+  footer{
+    padding: 0;
+  }
+  #desktop{
+		display:none;
+	}
+  #mobile{
+		display:inline;
+	}
+
+}
+
+table{
+  border-style: 1;
+  border-color: #3399CC;
+  border-width: 1px
+  text-align: 0 auto;
+  width: 90%;
+  border-collapse: collapse;
+}
+td,th{
+  padding: 5px;
+  border-style:solid;
+  border-color: #3399CC;
+  border-width: 1px
+  text-align: center;
+}
+
+tr:nth-of-type(even){
+	background-color: #F5FAFC;
+}
+label{
+  float: left;
+  width: 8em;
+  padding-right: 1em;
+}
+input, textarea{
+  margin-bottom: 1em;
+  display: block;
+}
+mySubmit{
+  display: block;
+  margin-left: 10em;
+  background-color: lightgrey;
+}
+video{
+  float: right;
+  margin: 2em;
+}
+#trailguide{
+  background-image:url(images/trailguide.jpg);
+  height:206px;
+  width:155px;
+
+}
+#yurtyoga{
+  background-image:url(images/yurtyoga.jpg);
+  height:206px;
+  width:155px;
+}
+.leftfloat{
+  float: left;
+  margin: 1em;
+}
+.clear{
+  clear:both;
+}
