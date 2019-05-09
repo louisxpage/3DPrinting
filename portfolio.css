@@ -92,6 +92,9 @@ nav ul{
  margin:auto;
 }
 
+.bg-info{
+  background-color:#FC5C08!important;
+}
 .responsive {
   max-width: 100%;
   height: auto;
