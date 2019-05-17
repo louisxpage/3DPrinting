@@ -1,0 +1,188 @@
+/*This is the CSS file for Louis Page Portfolio */
+*{
+  box-sizing: border-box;
+}
+header{
+  line-height:200%;
+  margin-left: auto;
+  margin-right: auto;
+  background-image:url(images/lxplogo.png);
+  height: 150px;
+  padding-right: 20px;
+  padding-top: 60px;
+  background-position:  center ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 0;
+  background-color: #F1F1F1;
+}
+nav ul{
+ margin:auto;
+}
+body{
+  background-color: #F1F1F1;
+  font-family:Verdana, Arial, sans-serif;
+  color:#585858;
+  background-color: #F1F1F1;
+}
+main{
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 40px;
+  background-color: #F1F1F1;
+}
+footer{
+  background-color:
+}
+h1{
+  line-height:200%;
+  margin-left: center;
+  margin-right: center;
+  height:150px;
+  padding-left: 110px;
+  padding-top: 145px;
+  background-position: 0px , center;
+  background-size: 100% ;
+  background-repeat: no-repeat;
+  margin-bottom: 0;
+}
+h2{
+  margin-left: auto;
+  margin-right: 200px;
+
+}
+footer{
+  text-align: center;
+}
+/*Link CSS*/
+/* unvisited link */
+a:link {
+  color: #ED6C21;
+}
+/* visited link */
+a:visited {
+  color: #ED6C21;
+}
+/* mouse over link */
+a:hover {
+  color: red;
+}
+/* selected link */
+a:active {
+  color: yellow;
+}
+/*change bootstrap cell */
+.container-fluid{
+  padding-top: 40px;
+}
+/*change image effects*/
+.img-fluid{
+  border-width: 2px;
+  border-style: solid;
+  border-radius: .175cm;
+}
+/*nav bar color change*/
+.bg-info {
+  background-color: #ED6C21!important;
+}
+/*Javascript Photo gallary CSS*/
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+.gallery .preview{
+  width:100%
+  height:auto;
+  margin-top: 40px;
+}
+.gallery .gallery-thumbnails img {
+  width:100px;
+  height:75px;
+  margin: 3px 10px 10px 0;
+}
+.gallery .gallery-thumbnails img:hover {
+  opacity: .8;
+  cursor: pointer;
+}
+.gallery .preview img#preview {
+  padding: 1px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto !important;
+  display: block !important;
+}
+/* CSS for Tablets */
+
+@media only screen and (max-width: 1024px){
+
+
+    body{
+        margin: 0;
+        padding: 0;
+        background-image: none;
+    }
+
+
+
+    h1{
+        margin: 0;
+    }
+    nav{
+        float: none;
+        width: auto;
+        padding: 0.5em;
+    }
+    nav li{
+        display: inline-block;
+    }
+    nav a{
+        padding: 1em;
+    }
+    main{
+        margin-left: 0;
+        padding: 1em;
+        font-size: 90%;
+    }
+    footer{
+        margin: 0;
+    }
+}
+/* CSS for Smartphones */
+@media only screen and (max-width: 768px){
+
+    nav li,
+    nav a{
+        display: block;
+    }
+    nav{
+        padding: 0;
+    }
+    nav a{
+        padding: 0.2em;
+        font-size: 1.3em;
+        border-bottom: 1px #330000 solid;
+    }
+    nav ul,
+    nav li{
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        font-size: 1.5em;
+        padding-left: 0.3em;
+        height: 100%;
+  }
+  main{
+    padding: 0.1em 0.6em 0.1em 0.4em;
+  }
+  footer{
+    padding: 0;
+  }
+  #desktop{
+		display:none;
+	}
+  #mobile{
+		display:inline;
+	}
+
+}
